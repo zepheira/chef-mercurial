@@ -53,9 +53,11 @@ License and Author
 ==================
 
 Author:: Joshua Timberman <joshua@opscode.com>
+
 Author:: Panagiotis Papadomitsos <pj@ezgr.net>
 
 Copyright:: 2009, Opscode, Inc
+
 Copyright:: 2012, Panagiotis Papadomitsos
 
 Licensed under the Apache License, Version 2.0 (the "License");
