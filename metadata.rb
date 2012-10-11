@@ -1,11 +1,11 @@
-maintainer        "Opscode, Inc."
-maintainer_email  "cookbooks@opscode.com"
+maintainer        "Panagiotis Papadomitsos"
+maintainer_email  "pj@ezgr.net"
 license           "Apache 2.0"
 description       "Installs mercurial"
-version           "0.8.0"
+version           "1.0.1"
 
 recipe "mercurial", "Installs mercurial"
 
-%w{ debian ubuntu }.each do |os|
+%w{ debian ubuntu centos redhat fedora }.each do |os|
   supports os
 end
