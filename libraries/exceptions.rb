@@ -1,7 +1,7 @@
 #
 # Author::  Panagiotis Papadomitsos (<pj@ezgr.net>)
 #
-# Cookbook Name:: php
+# Cookbook Name:: mercurial
 # Library:: exceptions
 #
 # Copied and modified from Opscode's Git SCM library
