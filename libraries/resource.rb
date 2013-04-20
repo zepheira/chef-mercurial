@@ -28,19 +28,9 @@ class Chef
             def initialize(name, run_context=nil)
                 super(name, run_context)
                 @resource_name = :mercurial
-                @ssh_ignore = false
-                @ssh_key = ''
                 @branch = true
                 @revision = 'default'
                 @provider = Chef::Provider::Mercurial
-            end
-
-            def ssh_ignore(arg=nil)
-                set_or_return(:ssh_ignore, arg, :kind_of => [ FalseClass, TrueClass ])                
-            end
-
-            def ssh_key(arg=nil)
-                set_or_return(:ssh_key, arg, :kind_of => String) 
             end
 
             def branch(arg=nil)
