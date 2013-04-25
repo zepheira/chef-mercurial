@@ -17,6 +17,4 @@
 # limitations under the License.
 #
 
-package "mercurial" do
-  action :upgrade
-end
+package "mercurial"
