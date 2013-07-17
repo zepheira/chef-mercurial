@@ -7,6 +7,8 @@ version           "1.0.1"
 
 recipe "mercurial", "Installs mercurial"
 
+depends             "apt"
+
 %w{ debian ubuntu centos redhat fedora }.each do |os|
   supports os
 end
